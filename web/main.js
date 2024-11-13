@@ -27,3 +27,33 @@ ScrollReveal().reveal(".container_left .container_btn",{
     ...scrollRevealOption,
     delay: 500,
 });
+
+ScrollReveal().reveal(".container_right h4",{
+    ...scrollRevealOption,
+    delay: 2000,
+});
+
+ScrollReveal().reveal(".container_right h2",{
+    ...scrollRevealOption,
+    delay: 2500,
+});
+
+ScrollReveal().reveal(".container_right h3",{
+    ...scrollRevealOption,
+    delay: 3000,
+});
+
+ScrollReveal().reveal(".container_right p",{
+    ...scrollRevealOption,
+    delay: 3500,
+});
+
+ScrollReveal().reveal(".container_right .tent-1",{
+    duration :1000,
+    delay: 4000,
+});
+ScrollReveal().reveal(".container_right .tent-2",{
+    duration :1000,
+    // ...scrollRevealOption,
+    delay: 4500,
+});
