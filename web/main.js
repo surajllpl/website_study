@@ -23,6 +23,12 @@ ScrollReveal().reveal(".container_left h1",{
     ...scrollRevealOption,
 });
 
+ScrollReveal().reveal(".nav_links li", {
+    ...scrollRevealOption,
+    origin: "top",
+    delay: 500,
+    interval: 200,  // Each link will animate with a slight delay
+});
 ScrollReveal().reveal(".container_left .container_btn",{
     ...scrollRevealOption,
     delay: 500,
@@ -52,8 +58,22 @@ ScrollReveal().reveal(".container_right .tent-1",{
     duration :1000,
     delay: 4000,
 });
+
 ScrollReveal().reveal(".container_right .tent-2",{
     duration :1000,
     // ...scrollRevealOption,
     delay: 4500,
+});
+
+ScrollReveal().reveal(".location",{
+    ...scrollRevealOption,
+    origin:"left",
+    delay: 5000,
+});
+
+ScrollReveal().reveal(".socials span",{
+    ...scrollRevealOption,
+    origin:"top",
+    delay: 5500,
+    interval : 500,
 });
