@@ -224,7 +224,27 @@ nav {
   border-bottom: none;
 }
 
+.location span{
+ padding: 5px 10px;
+ font-size: 1.5rem;
+ color: var(--text-dark);
+ background-color: var(--white);
+ border-radius: 10px;
+}
 
+.socials{
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10PX;
+}
+
+.socials a{
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}
 @media (width > 768px) {
   nav {
     position: static;
