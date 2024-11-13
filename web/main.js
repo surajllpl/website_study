@@ -13,6 +13,21 @@ navLinks.addEventListener("click",(e)=>{
     menuBtnIcon.setAttribute("class","ri-menu-line");
 });
 
+window.onscroll = function() {stickNavbar()};
+
+const navbar = document.getElementById("navbar");
+console.log(navbar);
+
+const sticky = navbar.offsetTop;
+
+function stickNavbar() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
 const scrollRevealOption ={
     distance :"50px",
     origin : "bottom",
@@ -77,3 +92,5 @@ ScrollReveal().reveal(".socials span",{
     delay: 5500,
     interval : 500,
 });
+
+
