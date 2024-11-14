@@ -107,7 +107,7 @@
     color: #fff;
     display: none;
   }
-  .list .item:nth-child(1) .content{
+  .list .item:nth-child(2) .content{
     display: block;
   }
   .content .title{
