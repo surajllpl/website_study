@@ -39,7 +39,7 @@ header {
   color: #fff;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 20%;
   z-index: 5; /* Ensures header stays on top */
 }
 
@@ -126,7 +126,8 @@ nav {
   height: 100vh;
   overflow: hidden;
    margin-top: 60px; /* Adjust based on header height */
-}
+  align-items: center;
+ }
 
 
 .slider .slider-image {
