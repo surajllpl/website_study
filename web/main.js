@@ -80,6 +80,34 @@ ScrollReveal().reveal(".container_right .tent-2",{
     delay: 4500,
 });
 
+ScrollReveal().reveal(".tent-images",{
+    
+    ...scrollRevealOption,
+    delay: 1500,
+});
+ScrollReveal().reveal(".content-tent h4",{
+    ...scrollRevealOption,
+    delay: 2500,
+});
+
+ScrollReveal().reveal(".content-tent h2",{
+    ...scrollRevealOption,
+    delay: 2000,
+});
+
+ScrollReveal().reveal(".content-tent h3",{
+    ...scrollRevealOption,
+    delay: 3000,
+});
+
+ScrollReveal().reveal(".content-tent b",{
+    ...scrollRevealOption,
+    delay: 3300,
+});
+ScrollReveal().reveal(".content-tent p",{
+    ...scrollRevealOption,
+    delay: 3500,
+});
 // ScrollReveal().reveal(".location",{
 //     ...scrollRevealOption,
 //     origin:"left",
