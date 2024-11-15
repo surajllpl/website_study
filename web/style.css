@@ -351,9 +351,8 @@ nav {
   position: relative;
   font-size: 1.5rem;
   margin-top: 2rem;
-  display: block;
   color: vaar(--text-dark);
-  justify-items: center;
+  text-align: center;
 }
 .tent-section{
   position: absolute;
