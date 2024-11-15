@@ -471,11 +471,25 @@ box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
   .container_left {
     text-align: left;
   }
+  
 }
 
 @media (max-width: 768px) {
   .slider {
     height: 40vh; /* Adjust for smaller screens */
+  }
+  .tent-section{
+    position: absolute;
+    margin: 10px;
+    display: inline;
+  }
+  .content-tent {
+    padding-block: 4rem;
+    text-align: left;
+    max-width: 500px;
+    background-color: var(--primary-color);
+
+    margin-inline-start: unset;
   }
 }
 
@@ -519,4 +533,6 @@ box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
     max-width: 500px;
     margin-inline-start: unset;
   }
+  
+
 }
