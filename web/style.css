@@ -37,10 +37,10 @@ body {
 header {
   background: var(--white);
   color: #fff;
-  position: fixed;
+  position: relative;
   top: 0;
-  width: 20%;
-  z-index: 5; /* Ensures header stays on top */
+  width: 100%;
+  z-index: 10; /* Ensures header stays on top */
 }
 
 
@@ -246,6 +246,7 @@ nav {
   animation: show 0.75s 1.25s ease-in-out forwards;
 }
 
+
 @keyframes show {
   0% {
     width: 10%;
@@ -343,6 +344,69 @@ nav {
 
 .socials a {
   font-size: 1.25rem;
+  color: var(--text-dark);
+}
+
+.tent-head{
+  position: relative;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  display: block;
+  color: vaar(--text-dark);
+  justify-items: center;
+}
+.tent-section{
+  position: absolute;
+  margin: 10px;
+  display: flex;
+}
+.tent-section .card-tent{
+  display: inline;
+  justify-items: center;
+  margin: 1rem;
+background-color: var(--primary-color);
+border-radius: 2.2rem;
+  margin-top: 4rem;
+}
+.tent-section .card-tent img{
+border-radius: 2rem;
+transform: translateY(1rem);
+max-width: 700px;
+box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+}
+
+.content-tent {
+  padding-block: 0 5rem;
+  padding-inline: 2rem;
+  text-align: center;
+  /* background-color: var(--primary-color); */
+  border-radius: 2rem;
+  margin-top: -1rem;
+}
+
+.content-tent h4 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.content-tent h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.content-tent h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.containt-tent p {
+  line-height: 1.75rem;
   color: var(--text-dark);
 }
 @media (width > 768px) {
@@ -447,6 +511,12 @@ nav {
     padding-block: 7rem;
     text-align: left;
     max-width: 400px;
+    margin-inline-start: unset;
+  }
+  .content-tent {
+    padding-block: 4rem;
+    text-align: left;
+    max-width: 500px;
     margin-inline-start: unset;
   }
 }

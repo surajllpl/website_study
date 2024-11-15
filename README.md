@@ -3,3 +3,6 @@ Slider - https://www.youtube.com/watch?v=oA-fxM2BjzI&list=PL5e68lK9hEzfTVV5L4q-t
 
 
 Carousel - https://www.youtube.com/watch?v=gLK3Svsxx-Q
+
+
+Beauty Parlour - https://www.youtube.com/watch?v=ck2-KrnZE3k

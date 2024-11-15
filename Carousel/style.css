@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap");
 
-:root {
-    --primary-color: #f3eae5;
-    --text-dark: #2c2724;
-    --white: #ffffff;
-    --max-width: 1200px;
-  }
   * {
     margin: 0;
     padding: 0;
@@ -275,3 +269,18 @@ animation: runningTime 7s linear 1 forwards;
       font-size: 14px;
   }
 }
+
+/* about  */
+/* .about{
+  width: 180px;
+  height: 250px;
+  position: absolute;
+  padding: 10px;
+} */
+/* .about-image {
+  width: 100%; /* Set to fill the container width */
+  /* max-width: 1920px; Set max width */
+  /* height: auto; Maintains the aspect ratio */
+  /* object-fit: cover; Ensures the image fills the box without stretching */
+  /* max-height: 1080px; Ensures height does not exceed the frame */
+/* }  */

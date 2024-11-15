@@ -52,4 +52,11 @@ function showSlider(type){
 }
 
 // Start the initial animation 
-resetTimeAnimation()
+resetTimeAnimation();
+
+document.querySelector('a[href="#about-section"]').addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector('#about-section');
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  

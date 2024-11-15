@@ -80,17 +80,17 @@ ScrollReveal().reveal(".container_right .tent-2",{
     delay: 4500,
 });
 
-ScrollReveal().reveal(".location",{
-    ...scrollRevealOption,
-    origin:"left",
-    delay: 5000,
-});
+// ScrollReveal().reveal(".location",{
+//     ...scrollRevealOption,
+//     origin:"left",
+//     delay: 5000,
+// });
 
-ScrollReveal().reveal(".socials span",{
-    ...scrollRevealOption,
-    origin:"top",
-    delay: 5500,
-    interval : 500,
-});
+// ScrollReveal().reveal(".socials span",{
+//     ...scrollRevealOption,
+//     origin:"top",
+//     delay: 5500,
+//     interval : 500,
+// });
 
 
