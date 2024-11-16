@@ -349,10 +349,10 @@ nav {
   line-height: 1.75rem;
   color: var(--text-dark);
 }
-/* .footer-icon{
+.footer-icon{
   position: relative;
 padding: 0rem 0rem 5rem; 
-} */
+}
 
 .location {
   position: absolute;
