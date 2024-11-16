@@ -349,11 +349,15 @@ nav {
   line-height: 1.75rem;
   color: var(--text-dark);
 }
+/* .footer-icon{
+  position: relative;
+padding: 0rem 0rem 5rem; 
+} */
 
 .location {
   position: absolute;
-  left: 1rem;
-  /* bottom: 1rem; */
+  left: 2rem;
+  /* bottom: 10rem; */
   padding: 1rem 2rem 1rem 1rem;
   border-radius: 1rem;
   display: flex;
@@ -460,6 +464,26 @@ padding: 10px;;
   line-height: 1.75rem;
   color: var(--text-dark);
 }
+
+.footer{
+  background: var( --text-dark);
+  color: var(--primary-color);
+  padding: 10% 5%;
+  
+}
+.footer-item{
+  display: flex;
+}
+.footer h4{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.footer p{
+  font-size: 1rem;
+  padding: 1rem;
+  
+}
 @media (width > 768px) {
   nav {
     position: static;
@@ -529,8 +553,37 @@ padding: 10px;;
   .slider {
     height: 40vh; /* Adjust for smaller screens */
   }
-  .tent-section{
+
+  .location {
+  position: absolute;
+  left: 2rem;
+  /* bottom: 10rem; */
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: 1rem;
+  /* display: flex; */
+  /* align-items: center; */
+  gap: 1rem;
+  font-size: 0.9rem;
+  /* font-weight: 600; */
+  color: var(--text-dark);
+  background-color: var(--primary-color);
+  border: 10px thin var(--white);
+  border-bottom: none;
+  margin-bottom: 10rem;
+  }
+  .socials {
     position: absolute;
+    /* bottom: 1rem; */
+    right: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  .tent-section{
+    position: relative;
     margin: 10px;
     display: inline;
   }
