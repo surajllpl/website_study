@@ -108,17 +108,17 @@ ScrollReveal().reveal(".content-tent p",{
     ...scrollRevealOption,
     delay: 3500,
 });
-// ScrollReveal().reveal(".location",{
-//     ...scrollRevealOption,
-//     origin:"left",
-//     delay: 4000,
-// });
+ScrollReveal().reveal(".location",{
+    ...scrollRevealOption,
+    origin:"left",
+    delay: 4000,
+});
 
-// ScrollReveal().reveal(".socials span",{
-//     ...scrollRevealOption,
-//     origin:"top",
-//     delay: 4500,
-//     interval : 500,
-// });
+ScrollReveal().reveal(".socials span",{
+    ...scrollRevealOption,
+    origin:"top",
+    delay: 4500,
+    interval : 500,
+});
 
 
