@@ -27,6 +27,9 @@ a {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  /* padding: 0% 10px; */
+  /* border: solid #000; */
+
 }
 /* header {
   background: var(--white);
@@ -350,7 +353,7 @@ nav {
 .location {
   position: absolute;
   left: 1rem;
-  bottom: 1rem;
+  /* bottom: 1rem; */
   padding: 1rem 2rem 1rem 1rem;
   border-radius: 1rem;
   display: flex;
@@ -374,7 +377,7 @@ nav {
 
 .socials {
   position: absolute;
-  bottom: 1rem;
+  /* bottom: 1rem; */
   right: 1rem;
   display: flex;
   align-items: center;
@@ -394,23 +397,33 @@ nav {
   text-align: center;
 }
 .tent-section{
-  position: absolute;
+  position: relative;
   margin: 10px;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: solid #000; */
+
 }
 .tent-section .card-tent{
   display: inline;
   justify-items: center;
+  
+  width: 100%;
+
   margin: 1rem;
 background-color: var(--primary-color);
 border-radius: 2.2rem;
   margin-top: 4rem;
 }
 .tent-section .card-tent img{
+  
 border-radius: 2rem;
-transform: translateY(1rem);
-max-width: 700px;
-box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+/* transform: translateY(1rem); */
+padding: 10px;;
+/* max-width: 100%; */
+/* max-height: 17rem; */
+/* box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2); */
 }
 
 .content-tent {
@@ -419,7 +432,7 @@ box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
   text-align: center;
   /* background-color: var(--primary-color); */
   border-radius: 2rem;
-  margin-top: -1rem;
+  margin-top: 1rem;
 }
 
 .content-tent h4 {

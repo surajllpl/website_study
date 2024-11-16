@@ -111,13 +111,13 @@ ScrollReveal().reveal(".content-tent p",{
 // ScrollReveal().reveal(".location",{
 //     ...scrollRevealOption,
 //     origin:"left",
-//     delay: 5000,
+//     delay: 4000,
 // });
 
 // ScrollReveal().reveal(".socials span",{
 //     ...scrollRevealOption,
 //     origin:"top",
-//     delay: 5500,
+//     delay: 4500,
 //     interval : 500,
 // });
 
