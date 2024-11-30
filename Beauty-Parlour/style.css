@@ -99,7 +99,48 @@ body{
     color: var(--first-color);
     border: 2px solid var(--first-color);
 }
-
+/* start home section  */
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-color);
+    border-radius: 0 0 300px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home .home-img img{
+    max-width: 100%;
+    height: 100%;
+}
+.home .home-content{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.home-content h1{
+    font-family: var(--font-cursive);
+    font-size: 4rem;
+    line-height: 3.5rem;
+    letter-spacing: 4px;
+    color: var(--first-color);
+    margin-bottom: 1.5rem;
+}
+.home-content p{
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    color: var(--black-color);
+    margin-bottom: 1.5rem;
+}
+/* end home section  */
 
 @media(max-width:920px){
     .nav-menu{
