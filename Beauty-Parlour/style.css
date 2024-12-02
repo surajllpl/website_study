@@ -281,8 +281,14 @@ body{
 /* start services section  */
 .services{
     width: 100%;
-    padding: 5rem 0;
+    padding: 4rem 0;
     background-image: url(images/);
+    border-bottom: #151515 solid;
+    border-top: #151515 solid;
+
+    border-radius: 100px;
+    /* background-color: var(--second-color);
+    border-radius: 300px 0 300px 0; */
     background-repeat: no-repeat;
     background-position: top left;
     z-index: -1;
@@ -317,7 +323,7 @@ body{
     padding: 20px;
 }
 .services-content-description .box .inner img{
-    width: 90px;
+    width: 100px;
     margin-bottom: 1rem;
 }
 .services-content-description .box .inner {
