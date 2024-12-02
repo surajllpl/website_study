@@ -281,9 +281,9 @@ body{
 /* start services section  */
 .services{
     width: 100%;
-    padding: 4rem 0;
+    padding: 7rem 0;
     background-image: url(images/);
-    border-bottom: #151515 solid;
+    /* border-bottom: #151515 solid; */
     border-top: #151515 solid;
 
     border-radius: 100px;
@@ -363,6 +363,73 @@ body{
     border-color: var(--first-color);
 }
 /* end services section  */
+/* start package section  */
+.package{
+    width: 100%;
+    padding: 7rem 0;
+    background-color: var(--main-color);
+    border-radius: 0 300px;
+}
+.package-cards{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+.card{
+    background-color: var(--white-color);
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.25);
+    border-radius: 30px;
+    padding: 1.5rem;
+    margin: 10px auto;
+    transition: all 0.4s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.card-title h1{
+    font-weight: bold;
+    font-size: var(--h1-font-size);
+    line-height: 2.25rem;
+    color: var(--black-color);
+}
+.card-item{
+    margin-bottom: 1rem;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item p{
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: var(--first-color);
+    margin-left: 0.5rem;
+}
+.card-item .item p span{
+    font-size: var(--normal-font-size);
+    font-weight: 300;
+}
+.item .ri-checkbox-line,
+.item .ri-close-circle-line{
+    font-size: var(--h3-font-size);
+}
+.item .ri-close-circle-line,
+.item .not{
+    color:var(--second-color);
+}
+.item .check-icon{
+    color: var(--first-color);
+}
+.card-item button{
+    margin: 1rem auto 0;
+}
+/* end package section  */
 
 
 @media(max-width:920px){
