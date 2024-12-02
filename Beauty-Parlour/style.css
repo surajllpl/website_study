@@ -279,6 +279,8 @@ body{
 }
 /* end about section  */
 
+
+
 @media(max-width:920px){
     .nav-menu{
         position: absolute;
@@ -332,5 +334,15 @@ body{
     /* about section  */
     .about-detail-content{
         grid-template-columns: unset;
+    }
+
+    .services-content-description{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:560px){
+      .services-content-description{
+        grid-template-columns: repeat(2,1fr);
     }
 }
