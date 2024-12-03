@@ -288,9 +288,7 @@ body{
     padding: 7rem 0;
     background-image: url(images/);
     /* border-bottom: #151515 solid; */
-    border-top: #151515 solid;
-
-    border-radius: 100px;
+   
     /* background-color: var(--second-color);
     border-radius: 300px 0 300px 0; */
     background-repeat: no-repeat;
@@ -316,12 +314,16 @@ body{
 .services-content-description{
     width: 100%;
     padding: 2rem;
+    margin: 1rem;
     max-width: 1200px;
     margin: 0  auto;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
+    border-top: #151515 solid;
+
+    border-radius: 100px;
 }
 .services-content-description box{
     padding: 20px;
