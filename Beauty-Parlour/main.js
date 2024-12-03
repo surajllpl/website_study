@@ -24,3 +24,18 @@ function linkColor(){
 }
 
 navLinkColor.forEach(a => a.addEventListener("click", linkColor))
+
+
+// change header background when scroll down
+
+function scollHeader(){
+    const header = document.querySelector(".header");
+    if(this.scrollY >=200){
+        header.classList.add("scroll-header");
+    }
+    else{
+        header.classList.remove("scroll-header");
+
+    }
+}
+window.addEventListener("scroll", scollHeader);
